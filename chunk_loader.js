@@ -2,7 +2,7 @@
 
 window.addEventListener('DOMContentLoaded', function() {
   var container = document.getElementById('container');
-  fetch(`/container.html`).then(res => res.text()).then(data => {
+  fetch(`/container.md`).then(res => res.text()).then(data => {
     container.innerHTML = `<h1 style="padding: 50px">SỐ LẦN ĐỊT MẸ <b>HERO TEAM</b></h1>
 <!-- Start of CuterCounter Code -->
 <a href="#" target="_blank"><img src="https://www.cutercounter.com/hits.php?id=hxfakxd&nd=7&style=20" border="0"
